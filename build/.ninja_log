@@ -1,0 +1,20 @@
+# ninja log v5
+1	291	1679593586987055806	Hacker/CMakeFiles/Hacker.dir/Utils/src/utils.cpp.o	f954505df4579c0e
+0	15	1679525552193079924	Hacker/CMakeFiles/hacker.dir/Lib/src/libhacker/libhacker.cpp.o	b5779f65a0de8c16
+0	22	1679527201596561036	../Output/libhacker.so	aac43a4f5b57dd7d
+1	273	1679593446526646160	Hacker/CMakeFiles/Hacker.dir/Inject/src/my_inject.cpp.o	160e8c048fe51aa5
+1	302	1679593586999055840	Hacker/CMakeFiles/Hacker.dir/Exec/src/hacker.cpp.o	dca5dbcd3d021caa
+1	392	1679525552569080710	Victim/CMakeFiles/Victim.dir/src/victim.cpp.o	9bc7187b8873d162
+1	375	1679593446626646452	Hacker/CMakeFiles/Hacker.dir/Inject/src/ptrace_inject.cpp.o	4f8aed78f26e081b
+0	795	0	CMakeFiles/run_hacker	b92271f9eb7044a4
+1	94	1679527201668561190	../Output/Victim	cc99208c950833b0
+303	425	1679593587119056189	../Output/Hacker	668d8977fd6b02c8
+0	795	0	/home/fallw1nd/Desktop/Re/GSlab/build/CMakeFiles/run_hacker	b92271f9eb7044a4
+0	435	1679593798219671746	Hacker/CMakeFiles/Hacker.dir/Exec/src/hacker.cpp.o	dca5dbcd3d021caa
+1	485	1679593798267671887	Hacker/CMakeFiles/Hacker.dir/Inject/src/ptrace_inject.cpp.o	4f8aed78f26e081b
+1	245	1679593832411771413	Hacker/CMakeFiles/Hacker.dir/Inject/src/my_inject.cpp.o	160e8c048fe51aa5
+245	341	1679593832503771680	../Output/Hacker	668d8977fd6b02c8
+342	1121	0	CMakeFiles/run_hacker	b92271f9eb7044a4
+342	1121	0	/home/fallw1nd/Desktop/Re/GSlab/build/CMakeFiles/run_hacker	b92271f9eb7044a4
+1	776	0	CMakeFiles/run_hacker	b92271f9eb7044a4
+1	776	0	/home/fallw1nd/Desktop/Re/GSlab/build/CMakeFiles/run_hacker	b92271f9eb7044a4

@@ -1,0 +1,7 @@
+{
+    "cmake.configureArgs": [
+        "-DCMAKE_TOOLCHAIN_FILE=~/Android/Sdk/ndk/25.2.9519653/build/cmake/android.toolchain.cmake",
+        "-DANDROID_ABI=armeabi-v7a",
+        "-DANDROID_PLATFORM=android-21"
+    ]
+}
