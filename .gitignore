@@ -1,4 +1,2 @@
-.cache/
-build/
-1
-2
+./.cache/
+./build/
