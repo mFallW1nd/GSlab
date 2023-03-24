@@ -8,7 +8,7 @@ Learn from https://gslab.qq.com
 - [ ] Inline Hook
 - [ ] GOT Hook
 - [ ] Exception-based Hook
-- [ ] Procces's Module Traverse && Get information
+- [ ] Procces's Module Traverse && Get Information
 - [ ] GUI developed by Flutter (Android)
 
 ## Blog
