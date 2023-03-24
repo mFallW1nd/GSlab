@@ -1,5 +1,5 @@
 # GSlab
-Learn From https://gslab.qq.com
+Learn from https://gslab.qq.com
 
 ## Todo
 - [x] Ptrace Inject
