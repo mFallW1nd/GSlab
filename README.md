@@ -2,7 +2,7 @@
 Learn From https://gslab.qq.com
 
 ## Todo
-- [ ] Ptrace Inject
+- [x] Ptrace Inject
 - [ ] Zygote Inject
 - [ ] ELF Inject
 - [ ] Inline Hook
