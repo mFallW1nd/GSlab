@@ -139,6 +139,7 @@ bool PtraceInjectRemoteProcess(pid_t pid, const char* lib_path) {
   }
 
   size_t param_dlsym[2];
+  size_t hello_hacker_addr;
   param_dlsym[0] = hacker_module_handle;
   param_dlsym[1] = remote_map_addr;
   if (ptrace_call(pid, dlsym_addr, param_dlsym,
@@ -149,11 +150,19 @@ bool PtraceInjectRemoteProcess(pid_t pid, const char* lib_path) {
     return false;
   } else {
     // get the ret value (hacker moudle's base address in remote proccess)
-    size_t hello_hacker_addr = ptrace_getret(current_regs);
+    hello_hacker_addr = ptrace_getret(current_regs);
     LOGD(TAG_PTRACE, "[+] Ptrace call dlsym success");
     log_context(current_regs);
     LOGD(TAG_PTRACE, "[+] Injected module's hello_hacker addr: 0x%zx",
          hello_hacker_addr);
+  }
+
+  if (ptrace_call(pid, hello_hacker_addr, NULL, 0, current_regs) == false) {
+    LOGE(TAG_PTRACE, "[x] Call hello_hacker failed");
+    ptrace_detach(pid);
+    return false;
+  } else {
+    LOGD(TAG_PTRACE, "[+] Call hello_hacker success");
   }
 
   // restore the remote process's context
